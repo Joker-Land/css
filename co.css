@@ -1,0 +1,249 @@
+body {
+  background-color: #eee;
+}
+
+.conta {
+  position: relative;
+  height: 100vh;
+}
+.container img {
+  width: 300px;
+  max-width: 90%;
+}
+
+.container {
+  width: 90%;
+}
+
+.container .colors {
+  /* background-color: white; */
+  width: 500px;
+  max-width: 90%;
+  height: 500px;
+  margin: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 5px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  grid-gap: 10px;
+}
+
+.container .logo {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  left: 50%;
+  top: 10%;
+  transform: translate(-50%, -50%);
+}
+
+.container h1 {
+  text-align: center;
+}
+
+.color1 {
+  background: linear-gradient(100deg, #1f4037 -100%, #99f2c8);
+}
+
+.color2 {
+  background: linear-gradient(100deg, whitesmoke -100%, #ff691f);
+}
+.color3 {
+  background: linear-gradient(100deg, whitesmoke -100%, #fab81e);
+}
+.color4 {
+  background: linear-gradient(100deg, whitesmoke -100%, #f58ea8);
+}
+.color5 {
+  background: linear-gradient(100deg, whitesmoke -100%, #19cf86);
+}
+.color6 {
+  background: linear-gradient(100deg, whitesmoke -100%, #91d2fa);
+}
+.color7 {
+  background: linear-gradient(100deg, whitesmoke -100%, #1b95e0);
+}
+.color8 {
+  background: linear-gradient(100deg, whitesmoke -100%, #abb8c2);
+}
+.color9 {
+  background: linear-gradient(100deg, whitesmoke -100%, #e81c4f);
+}
+.color10 {
+  background: linear-gradient(100deg, whitesmoke -100%, #000000);
+}
+.color11 {
+  background: linear-gradient(100deg, #c6426e -10%, #642b73);
+}
+.color12 {
+  background: linear-gradient(100deg, #0f2027 -10%, #203a43);
+}
+
+.co {
+  border-radius: 20px;
+  box-shadow: rgb(0 0 0 / 25%) 0px 5px 20px;
+  transition: transform 500ms;
+  animation: bounce 1s;
+  padding: 25px 0px;
+  cursor: pointer;
+}
+
+@keyframes bounce {
+  0% {
+    transform: rotate(0deg) scale(1);
+  }
+  33% {
+    transform: rotate(12deg) scale(1.2);
+  }
+  67% {
+    transform: rotate(-12deg) scale(0.8);
+  }
+  100% {
+    transform: rotate(0deg) scale(1);
+  }
+}
+
+.co:hover {
+  transform: rotate(0deg) scale(1.2);
+}
+
+.border {
+  border: 5px solid black;
+}
+
+.btnu {
+  position: absolute;
+  top: 83%;
+  left: 50%;
+  width: 500px;
+  max-width: 90%;
+  transform: translate(-50%, 50%);
+  height: 70px;
+}
+
+@media (max-width: 455px) {
+  .btnu {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    width: 500px;
+    max-width: 90%;
+    transform: translate(-50%, 50%);
+    height: 57px;
+    margin-bottom: 32px;
+  }
+}
+@media (max-width: 455px) {
+  .co:hover {
+    transform: rotate(0deg) scale(1.08);
+  }
+}
+/* @media (max-width:455px) {
+    .buut {
+        margin-bottom: 40px;
+    }
+      
+  } */
+.in {
+  width: 350px;
+  max-width: 90%;
+  display: block;
+  margin: auto;
+  padding: 10px;
+  margin-bottom: 6px;
+  background-color: #f5f6f7;
+  border: none;
+  border-radius: 4px;
+  border: 1px solid #00000012;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.sub {
+  width: 350px;
+  max-width: 90%;
+  display: block;
+  margin: auto;
+  padding: 10px;
+  background-color: #1877f2;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin-top: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+.modal-content {
+  width: 95%;
+  margin: auto;
+}
+
+.lg {
+  width: 112px !important;
+  display: block;
+  margin: auto;
+  margin-bottom: 25px;
+}
+
+.modal-body .fr {
+  text-align: center;
+  display: block;
+  margin: auto;
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+.hr {
+  position: relative;
+}
+
+.hr .t {
+  font-size: 14px;
+  padding: 0px 20px;
+  position: absolute;
+  top: -11px;
+  right: 50%;
+  transform: translate(50%, 0px);
+  font-family: Arial, Helvetica, sans-serif;
+  color: #4b4f56;
+  background-color: white;
+}
+
+.cr {
+  background-color: #00a400;
+  color: white;
+  padding: 8px 10px;
+  border-radius: 7px;
+  text-decoration: none;
+  margin: auto;
+  display: block;
+  width: 167px;
+  font-size: 14px;
+  text-align: center;
+  font-family: Arial;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.cr:hover {
+  color: white;
+}
+
+.modal-body p {
+  display: flex;
+  justify-content: center;
+  color: gray;
+  font-size: 12px;
+  margin-top: 10px;
+  bottom: 5px;
+  margin-bottom: 0px;
+}
+
+h5 {
+  font-size: 1rem;
+  color: red;
+}

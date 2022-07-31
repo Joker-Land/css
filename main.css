@@ -1,0 +1,46 @@
+/* :root {
+    --maincolor:#514CA7;
+    --seccolor: #413d8b;
+    --thrcolor: #1F054A;
+} */
+/* :root {
+    --maincolor:#35858B;
+    --seccolor: #086E7D;
+    --thrcolor: #075762;
+} */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Work Sans', sans-serif;
+    
+  }
+
+.container {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+
+@media (min-width: 768px) {
+    .container {
+      width: 750px;
+    }
+  }
+  /* Medium */
+  @media (min-width: 992px) {
+    .container {
+      width: 970px;
+    }
+  }
+  /* Large */
+  @media (min-width: 1200px) {
+    .container {
+      width: 1170px;
+    }
+  }

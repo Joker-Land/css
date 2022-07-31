@@ -1,0 +1,123 @@
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  height: 100vh;
+  background-image: url(/assets/waveyback.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  padding: 10px;
+}
+
+header .list ul {
+  display: flex;
+  list-style: none;
+}
+
+header ul li {
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+section .container {
+  height: 70vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+section .container .imag {
+  max-width: 90%;
+}
+section .container img {
+  width: 80%;
+}
+
+section .description h1 {
+  color: white;
+  font-size: 50px;
+}
+
+section .description p {
+  width: 300px;
+  color: white;
+  margin-top: 0;
+  margin-bottom: 50px;
+  line-height: 1.5;
+}
+
+section .description span {
+  text-decoration: underline wavy wheat;
+}
+
+section .messege {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+section .con h2 {
+  font-size: 40px;
+  text-align: center;
+  color: white;
+  animation: down 6s forwards linear;
+}
+
+@keyframes down {
+  from {
+    transform: translate(0, -1000px);
+  }
+  to {
+    transform: translate(0, 1000px);
+    display: none;
+  }
+}
+
+section .description a {
+  text-decoration: none;
+  color: white;
+  background: linear-gradient(to left, #b260cd, #d17ece);
+  padding: 17px 50px;
+  border-radius: 7px;
+  transition: background-image 1s;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+section .description a:hover {
+  background-image: linear-gradient(to top, #b260cd, #b260cd);
+}
+
+@media (max-width: 1200px) {
+  section .imag {
+    width: 500px;
+  }
+}
+@media (max-width: 992px) {
+  section .imag {
+    width: 400px;
+  }
+}
+@media (max-width: 750px) {
+  section h1 {
+    font-size: 40px;
+  }
+}
+@media (max-width: 500px) {
+  section .imag img {
+    width: 100%;
+  }
+}
+@media (max-width: 500px) {
+  header h2 {
+    font-size: 18px;
+  }
+}

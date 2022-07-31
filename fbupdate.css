@@ -1,0 +1,83 @@
+body {
+    background-color: #eee;
+}
+
+.container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.service {
+    width: 500px;
+    max-width: 90%;
+    height: calc(70px * 5);
+    border-radius: 15px;
+    text-align: center;
+}
+
+.serv {
+    background-color: #1178f2;
+    color: white;
+    text-align: center ;
+    margin: auto;
+    padding: 20px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    width: 98%;
+    transition: all 0.6s;
+    font-weight: bold;
+    background: linear-gradient(
+        84.06deg
+        , #f8e57e -28.62%, #c7a13b 36.39%, #b88725 98.74%);
+}
+
+.serv:last-child {
+    margin-bottom: 0px;
+}
+.serv:first-child {
+    margin-top: 5px;
+}
+
+.serv:hover {
+    transform: scale(1.05);
+}
+
+.up .logo {
+    width: 200px;
+    margin: auto;
+    margin-bottom: 24px;
+    position: absolute;
+    top: 2%;
+    left: 50%;
+    transform: translate(-50%, 10px);
+}
+
+.logo img {
+    width: 100%;
+}
+
+h1 {
+    font-weight: 600;
+    color: #bd8e2d;
+    margin-top: -30px;
+    font-size: 30px;
+
+    /* background: linear-gradient( 
+        84.06deg
+         , #c7a13b -28.62%, #f8e57e 36.39%, #b88725 98.74%);
+        color: transparent;
+        -webkit-background-clip: text; */
+}
+
+.title p {
+    font-size: 20px;
+    color: #bf8e2d;
+}
+/* 
+.btnu {
+    background-color: #b88725;
+    border: 5px solid #7a5812;
+} */

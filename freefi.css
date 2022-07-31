@@ -1,0 +1,141 @@
+body {
+  background-image: url(/assets/freefire.jpg);
+  background-repeat: no-repeat;
+  background-color: thistle;
+}
+
+input {
+  width: 100%;
+  padding: 20px;
+  border-radius: 6px;
+  margin-bottom: 30px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+input:focus {
+  outline: none;
+  border: 3px solid #e91e63;
+}
+
+.devi {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+}
+
+.device {
+  width: 30%;
+  background-color: #e91e63;
+  border-radius: 6px;
+  padding: 5px;
+}
+
+h1 {
+  margin-bottom: 30px;
+  font-weight: bold;
+  font-size: 33px;
+}
+
+h3 {
+  font-size: 15px;
+}
+
+.border {
+  animation-name: scsa;
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes scsa {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.2) skewX(1deg);
+  }
+}
+
+.co {
+  position: relative;
+  height: 100vh;
+}
+
+.co .contant {
+  padding: 60px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.8);
+  width: 500px;
+  max-width: 90%;
+  color: white;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  background-color: #e91e63;
+  padding: 20px;
+  color: white;
+  border-radius: 5px;
+  width: 100%;
+  display: block;
+}
+
+.conti {
+  margin-top: 30px;
+  width: 100%;
+}
+
+a:hover {
+  background-color: #830d34;
+  color: white;
+}
+
+.rate {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 20px;
+  text-align: center;
+  padding: 20px;
+}
+
+.orate {
+  background-color: white;
+  position: relative;
+  border-radius: 5px;
+  border-bottom: 5px solid #e91e63;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.rate .imag {
+  width: 80px;
+  height: 80px;
+  background-color: #eee;
+  border-radius: 50%;
+  text-align: center;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, 0);
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.cards {
+  background-color: thistle;
+  border-top: 5px solid #e91e63;
+}
+
+.active {
+  background-color: #830d34;
+  transform: scale(1.1);
+  border: 3px solid white;
+}
+
+.device {
+  color: white;
+  border: none;
+}

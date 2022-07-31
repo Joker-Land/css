@@ -1,0 +1,169 @@
+body {
+    background-color: #eee;
+}
+
+.container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+
+.logo {
+    width: 380px;
+    margin: auto;
+    margin-bottom: 60px;
+    position: absolute;
+    right: 50%;
+    transform: translate(50%, 10px);
+    top: -80%;
+}
+
+.logo img {
+    width: 100%;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    
+}
+
+input {
+    display: block;
+    margin: auto;
+    padding: 10px;
+    border: none;
+    width: 320px;
+    font-size: 17px;
+    color: #222222;
+    background-color: #f4f4f4;
+    border-bottom:2px solid #929292;
+    transition: border 1s;
+
+
+}
+
+input:focus {
+    border: none;
+    border-bottom:2px solid #0a7cff;
+    outline: none;
+}
+
+.tx {
+    margin-top: 64px;
+    border-bottom:2px solid #929292;
+    margin-bottom: 15px;
+}
+
+
+
+.title {
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 40px;
+    font-weight: 600;
+    width: 300px;
+    font-size: 25px;
+}
+
+.sub {
+    padding:11px 17px;
+    background-color: #0a7cff;
+    color: white;
+    border: none;
+    margin-top: 30px;
+}
+
+.bott {
+    position: absolute;
+    bottom: 0%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bott p {
+    margin-left: 20px;
+    font-size: 15px;
+}
+
+@media (max-width:770px) {
+    h1 {
+        font-size: 22px;
+    }
+}
+@media (max-width:1000px) {
+    p {
+        font-size: 13px !important;
+    }
+}
+
+.si {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    color: #929292;
+    font-size: 14px;
+    margin-left: 7px;
+    margin-top: 10px;
+}
+
+.si input {
+    width: fit-content !important;
+    margin: 0px;
+    margin-right: 10px;
+    color: #929292;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+}
+
+.cr {
+    background-color: #4caf50;
+    margin-top: 20px;
+}
+
+.forg {
+    text-align: center;
+    margin-top: 30px;
+}
+
+a {
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.co {
+    position: relative;
+    top: 50%;
+    transform: translate(0, -50%);
+
+}
+
+.service {
+    position: relative;
+    background-color: white;
+    padding: 30px;
+    height: 75vh;
+    box-shadow: rgb(100 100 111 / 20%) 0px 7px 29px 0px;
+    border-radius: 15px;
+}
+
+hr {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+hr::before {
+    content: "or";
+    font-size: 18;
+    background-color: white;
+    position: absolute;
+    top: -18px;
+    right: 50%;
+    padding: 5px;
+    opacity: 1;
+}
